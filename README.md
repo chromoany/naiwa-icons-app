@@ -10,11 +10,13 @@
 
 ## 一、下载
 
-**➡️ [点这里下载最新版 APK](https://github.com/chromoany/naiwa-icons-app/releases/latest)**（在 Release 页面点 `naiwa-icons-v1.0.0.apk` 即可）
+**➡️ [点这里下载最新版 APK](https://github.com/chromoany/naiwa-icons-app/releases/latest)**（在 Release 页面点最新的 `naiwa-icons-v1.0.1.apk` 即可）
+
+<img src="preview/app-icon.png" width="104" alt="奶蛙图标 App 图标">
 
 | 项目 | 说明 |
 |---|---|
-| 版本 | v1.0.0（首个正式版，收录 67 个应用） |
+| 版本 | v1.0.1（收录 67 个应用） |
 | 大小 | 约 2.7 MB |
 | 系统要求 | Android 8.0 及以上（绝大多数手机都满足） |
 | 权限 | 只要「读取已安装应用列表」这类基础信息，**不联网、不收集任何数据** |
@@ -220,7 +222,7 @@ preview/all-icons.jpg      全部图标一览图
 
 ## 版本记录
 
-见 [CHANGELOG.md](CHANGELOG.md)。当前最新：**v1.0.0**（首个正式版，67 枚图标）。
+见 [CHANGELOG.md](CHANGELOG.md)。当前最新：**v1.0.1**（67 枚图标）。
 
 ## 版权
 
