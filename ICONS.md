@@ -1,0 +1,76 @@
+# 已收录应用清单
+
+共 **67** 枚图标，按应用名首字母排序（中文按拼音、英文按字母本身）。
+「图标名」就是 APK 里 `res/drawable-nodpi/<图标名>.png` 的资源名。
+
+> 想要的应用不在列表里？在 App 的「图标检查」页点「导出应用清单」，发到 [Issues](https://github.com/chromoany/naiwa-icons-app/issues) 即可，下一版加上。
+
+| 图标 | 应用 | 包名 |
+|---|---|---|
+| `iqiyi` | 爱奇艺 | `com.qiyi.video` |
+| `aliyundrive` | 阿里云盘 | `com.alicloud.databox` |
+| `baidu` | 百度 | `com.baidu.searchbox` |
+| `baicizhan` | 百词斩 | `com.jiongji.andriod.card` |
+| `baidu_map` | 百度地图 | `com.baidu.BaiduMap` |
+| `tieba` | 百度贴吧 | `com.baidu.tieba` |
+| `baidu_netdisk` | 百度网盘 | `com.baidu.netdisk` |
+| `notes` | 备忘录 | `com.samsung.android.app.notes` |
+| `bilibili` | 哔哩哔哩 | `tv.danmaku.bili` |
+| `chatgpt` | ChatGPT | `com.openai.chatgpt` |
+| `chrome` | Chrome | `com.android.chrome` |
+| `deepseek` | DeepSeek | `com.deepseek.chat` |
+| `phone` | 电话 | `com.sec.android.app.dialer` |
+| `contacts` | 电话本 | `com.samsung.android.app.contacts` |
+| `didi` | 滴滴出行 | `com.sdu.didi.psnger` |
+| `discord` | Discord | `com.discord` |
+| `dongchedi` | 懂车帝 | `com.ss.android.auto` |
+| `doubao` | 豆包 | `com.larus.nova` |
+| `douyin` | 抖音 | `com.ss.android.ugc.aweme` |
+| `douyin_mall` | 抖音商城 | `com.ss.android.ugc.livelite` |
+| `feishu` | 飞书 | `com.ss.android.lark` |
+| `amap` | 高德地图 | `com.autonavi.minimap` |
+| `github` | GitHub | `com.github.android` |
+| `jianying` | 剪映 | `com.lemon.lv` |
+| `jd` | 京东 | `com.jingdong.app.mall` |
+| `calculator` | 计算器 | `com.sec.android.app.popupcalculator` |
+| `keep` | Keep | `com.gotokeep.keep` |
+| `kuaishou` | 快手 | `com.smile.gifmaker` |
+| `recorder` | 录音机 | `com.sec.android.app.voicenote` |
+| `meituan` | 美团 | `com.sankuai.meituan` |
+| `migu_video` | 咪咕视频 | `com.cmcc.cmvideo` |
+| `arknights` | 明日方舟 | `com.hypergryph.arknights` |
+| `endfield` | 明日方舟：终末地 | `com.hypergryph.endfield` |
+| `pinduoduo` | 拼多多 | `com.xunmeng.pinduoduo` |
+| `play_store` | Play 商店 | `com.android.vending` |
+| `wecom` | 企业微信 | `com.tencent.wework` |
+| `qq` | QQ | `com.tencent.mobileqq` |
+| `calendar` | 日历 | `com.samsung.android.calendar` |
+| `software_store` | 软件商店 | `com.heytap.market`<br>`com.xiaomi.market`<br>`com.huawei.appmarket` |
+| `settings` | 设置 | `com.android.settings` |
+| `clock` | 时钟 | `com.sec.android.app.clockpackage` |
+| `signal` | Signal | `org.thoughtcrime.securesms` |
+| `taobao` | 淘宝 | `com.taobao.taobao` |
+| `telegram` | Telegram | `org.telegram.messenger` |
+| `weather` | 天气 | `com.sec.android.daemonapp` |
+| `railway` | 铁路12306 | `com.MobileTicket` |
+| `tim` | TIM | `com.tencent.tim` |
+| `netease` | 网易云音乐 | `com.netease.cloudmusic` |
+| `wzry` | 王者荣耀 | `com.tencent.tmgp.sgame` |
+| `weibo` | 微博 | `com.sina.weibo` |
+| `wechat` | 微信 | `com.tencent.mm` |
+| `files` | 我的文件 | `com.android.documentsui` |
+| `wps` | WPS Office | `cn.wps.moffice_eng` |
+| `gallery` | 相册 | `com.coloros.gallery3d` |
+| `camera` | 相机 | `com.oplus.camera` |
+| `xiaohongshu` | 小红书 | `com.xingin.xhs` |
+| `ctrip` | 携程 | `ctrip.android.view` |
+| `messages` | 信息 | `com.samsung.android.messaging` |
+| `samsung_internet` | 系统浏览器 | `com.sec.android.app.samsunginternet` |
+| `xuexitong` | 学习通 | `com.chaoxing.mobile` |
+| `galaxy_store` | 应用商店 | `com.sec.android.app.samsungapps` |
+| `email` | 邮件 | `com.samsung.android.email.provider` |
+| `youku` | 优酷 | `com.youku.phone` |
+| `alipay` | 支付宝 | `com.eg.android.AlipayGphone` |
+| `zhihu` | 知乎 | `com.zhihu.android` |
+| `compass` | 指南针 | `com.sec.android.app.compass` |
+| `zuoyebang` | 作业帮 | `com.baidu.homework` |
