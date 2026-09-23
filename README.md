@@ -265,13 +265,13 @@ LICENSE / LICENSE-APP      许可证
 
 | 项目 | 值 |
 |---|---|
-| 文件名 | `naiwa-icons-v1.0.1.apk`（当前最新） |
-| 大小 | 3,202,286 字节（约 3.1 MB） |
-| APK SHA-256 | `81bf99486ea080e493b6b5e9c84c338cea0e33ff536a6779b042a90097e76048` |
+| 文件名 | `naiwa-icons-v1.0.2.apk`（当前最新） |
+| 大小 | 3,030,254 字节（约 2.9 MB） |
+| APK SHA-256 | `3d476d39ecce662e34375705c54c1d7bf49f72000e4fa564b258888f11391c0d` |
 | 签名证书 SHA-256 | `AC:B9:A3:A6:2A:36:A7:3D:D8:F5:18:FE:B9:E4:5A:73:AC:D0:6C:06:4F:90:09:7D:C7:F5:B5:82:CB:62:EA:36` |
 
 - 每个 Release 页面都附带 `.sha256` 校验文件（内容是两个空格分隔的 `哈希 文件名`）
-- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.1.apk`，指纹对得上就说明是原版
+- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.2.apk`，指纹对得上就说明是原版
 - **所有版本都用同一个密钥签名**，所以可以直接覆盖升级；只有从别处装的 debug 测试包才需要先卸载
 
 </details>
