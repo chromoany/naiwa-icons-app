@@ -1,0 +1,49 @@
+name: 申请新增图标
+description: 想要某个应用也有奶蛙图标
+title: "[图标申请] "
+labels: ["图标申请"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！为了让新图标一次做对，请尽量把下面几项填全。
+
+        图标是逐枚手工审的，出图后作者会先发预览确认，通过才进正式版。
+  - type: input
+    id: app-name
+    attributes:
+      label: 应用名称
+      description: 你希望哪个应用有奶蛙图标
+      placeholder: 例如：闲鱼
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: 应用包名
+      description: 在「奶蛙图标」App 的「图标检查」页点「导出应用清单」，找到这个应用那一行贴过来（形如 `包名/Activity`）
+      placeholder: 例如：com.taobao.idlefish/com.taobao.idlefish.maincontainer.MainActivity
+    validations:
+      required: false
+  - type: input
+    id: official-icon
+    attributes:
+      label: 官方图标链接
+      description: 应用商店页面或官网的图标大图链接 —— 有它才能保证还原度（奶蛙的规则是必须照着官方形象画）
+      placeholder: https://...
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么想要它
+      placeholder: 一句话就行，比如「每天都要用」
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我找过了，这个应用确实还不在 [已收录清单](https://github.com/chromoany/naiwa-icons-app/blob/main/ICONS.md) 里
+          required: true

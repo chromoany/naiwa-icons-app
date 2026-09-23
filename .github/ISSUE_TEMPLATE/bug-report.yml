@@ -1,0 +1,54 @@
+name: 反馈问题
+description: 装不上 / 图标没换上 / 显示不对
+title: "[问题] "
+labels: ["问题反馈"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先看两处，多数问题那里已有答案：
+
+        - [README · 常见问题](https://github.com/chromoany/naiwa-icons-app#六常见问题)
+        - [README · 各品牌手机怎么用](https://github.com/chromoany/naiwa-icons-app#四各品牌手机怎么用)（含各品牌安装与换图标的正确路径）
+  - type: input
+    id: device
+    attributes:
+      label: 手机型号与系统版本
+      placeholder: 例如：一加 12 / ColorOS 15
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: 用的是哪种方式
+      options:
+        - 钉快捷方式（方式 A）
+        - 图标包模式（方式 B）
+        - 还没用上（装不上 / 打不开）
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 具体现象
+      description: 哪个应用没换上？系统弹了什么提示？有截图更好
+      placeholder: |
+        例如：微信、支付宝换上了，高德地图点「钉快捷方式」后桌面没反应
+    validations:
+      required: true
+  - type: textarea
+    id: applist
+    attributes:
+      label: 应用清单（个别应用没换上时填）
+      description: 在 App 的「图标检查」页点「导出应用清单」，把内容原样贴在这里 —— 有了它下一版就能补上映射
+      render: text
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App 版本
+      description: 在系统「设置 → 应用 → 奶蛙图标」里能看到，形如 1.0.1
+      placeholder: 1.0.1
+    validations:
+      required: false

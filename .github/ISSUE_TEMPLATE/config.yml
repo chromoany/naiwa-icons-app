@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 下载最新版 APK
+    url: https://github.com/chromoany/naiwa-icons-app/releases/latest
+    about: 只是想装到手机上用？直接去 Release 页面下载即可
+  - name: 图标素材与设计规范
+    url: https://github.com/chromoany/naiwa-icons
+    about: 1024×1024 成品图、奶蛙形象硬约束、生成提示词模板、返工决策树都在这个仓库

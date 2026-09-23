@@ -1,36 +1,72 @@
 # 奶蛙图标 · Naiwa Icons
 
-一套自己画的安卓图标：**67 个常用应用**，每个都是「品牌色圆角底 + 一只咧嘴狂笑的 3D 黏土小奶蛙抱着这个 App 的核心元素」。装一个 2.7 MB 的小 App，就能把手机桌面换成这样 👇
+<p align="center">
+  <img src="preview/app-icon.png" width="104" alt="奶蛙图标"><br>
+  <b>一套自己画的安卓图标：67 个常用应用，每个都是「品牌色圆角底 + 一只咧嘴狂笑的 3D 黏土小奶蛙抱着这个 App 的核心元素」</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/chromoany/naiwa-icons-app/releases/latest"><img src="https://img.shields.io/github/v/release/chromoany/naiwa-icons-app?style=for-the-badge&label=%E6%9C%80%E6%96%B0%E7%89%88&color=2ea44f" alt="最新版"></a>
+  <img src="https://img.shields.io/badge/%E5%9B%BE%E6%A0%87-67%20%E6%9E%9A-1AA35C?style=for-the-badge" alt="67 枚图标">
+  <img src="https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white" alt="Android 8.0+">
+  <a href="#%E8%AE%B8%E5%8F%AF%E8%AF%81"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge" alt="许可证"></a>
+  <a href="https://github.com/chromoany/naiwa-icons-app/releases"><img src="https://img.shields.io/github/downloads/chromoany/naiwa-icons-app/total?style=for-the-badge&label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=blue" alt="下载量"></a>
+  <a href="https://github.com/chromoany/naiwa-icons-app/issues"><img src="https://img.shields.io/github/issues/chromoany/naiwa-icons-app?style=for-the-badge&label=%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88&color=orange" alt="问题反馈"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/chromoany/naiwa-icons-app/releases/latest"><b>⬇️ 下载最新版 APK</b></a>
+  ·
+  <a href="#%E6%80%8E%E4%B9%88%E7%94%A8%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F">怎么用</a>
+  ·
+  <a href="#%E5%90%84%E5%93%81%E7%89%8C%E6%89%8B%E6%9C%BA%E6%80%8E%E4%B9%88%E7%94%A8">各品牌手机</a>
+  ·
+  <a href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">常见问题</a>
+  ·
+  <a href="ICONS.md">图标清单</a>
+</p>
 
 ![全部 67 枚图标](preview/all-icons.jpg)
 
-> 图标本身（1024×1024 高清 PNG、设计规范、提示词模板）在另一个仓库：[**chromoany/naiwa-icons**](https://github.com/chromoany/naiwa-icons)
+> **只想快点用上？** 下载上面那个 APK → 手机提示「禁止安装未知应用」时选「允许」→ 装好后打开 App，在网格里挑图标钉到桌面。全程 1 分钟，不需要 root、不需要电脑。
+
+> **English** · Naiwa Icons (**奶蛙图标**) is a hand-drawn icon pack for Android: 67 app icons in a soft 3D clay style, plus a tiny app that applies them to your home screen.
+> **Download** the latest `naiwa-icons-v*.apk` from [Releases](https://github.com/chromoany/naiwa-icons-app/releases/latest) — Android 8.0+, free, no ads, no network permission.
+> The 1024×1024 artwork and the design spec live in [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons).
+> This document is in Chinese because the app targets Chinese users: the per-brand instructions (Xiaomi / OPPO / vivo / Huawei / Honor / Samsung) are specific to Chinese ROMs, whose launcher restrictions differ a lot from stock Android.
 
 ---
 
-## 一、下载
+## 这套图标有什么特别的
 
-**➡️ [点这里下载最新版 APK](https://github.com/chromoany/naiwa-icons-app/releases/latest)**（在 Release 页面点最新的 `naiwa-icons-v1.0.1.apk` 即可）
+> **装之前先确认两件事**：① 系统是 Android 8.0 及以上；② **不是 HarmonyOS 5 / NEXT（纯血鸿蒙）** —— 那种系统装不了安卓应用，本 App 用不了。
 
-<img src="preview/app-icon.png" width="104" alt="奶蛙图标 App 图标">
+
+- **67 枚全自制**，统一形象：同一只奶蛙、同一套黏土渲染，摆在桌面上是一整套而不是拼凑的
+- **两种用法**：逐个换（任何手机都能用）/ 一次全换（桌面支持图标包时）
+- **不联网、不收集数据**：App 连网络权限都没申请
+- **做了自适应图标**：圆形、方圆形、圆角方形桌面遮罩下都正常
+- **图标是完整的一大张**，不是透明前景 + 系统背板 —— 所以每个图标的品牌色、构图都能自己控制
+
+## 下载
+
+**➡️ [点这里下载最新版 APK](https://github.com/chromoany/naiwa-icons-app/releases/latest)**（在 Release 页面点 `naiwa-icons-v*.apk`）
 
 | 项目 | 说明 |
 |---|---|
-| 版本 | v1.0.1（收录 67 个应用） |
-| 大小 | 约 2.7 MB |
+| 文件 | `naiwa-icons-v*.apk`，约 3 MB |
 | 系统要求 | Android 8.0 及以上（绝大多数手机都满足） |
-| 权限 | 只要「读取已安装应用列表」这类基础信息，**不联网、不收集任何数据** |
+| 权限 | 只要读取已安装应用列表这类基础信息，**不联网、不上报** |
 | 收费 | 免费，无广告 |
+| 升级 | 直接覆盖安装即可，不用卸载 |
 
-> 手机上下载不方便的话：在电脑上点上面的链接，把 APK 传到手机（微信/QQ 传文件、数据线都行），再在手机上点开安装。
+> 手机上下载不方便的话：在电脑上点上面的链接，把 APK 传到手机（微信 / QQ 传文件、数据线都行），再在手机上点开安装。
 
----
+## 安装
 
-## 二、安装（第一次会有点拦路，属正常）
-
-1. 在手机上点开下载好的 `naiwa-icons-v1.0.0.apk`。
-2. 系统几乎一定会拦一下，说「未知来源」「未经安全审核」「有风险」之类 —— **这是所有非应用商店安装包都会遇到的提示，不是这个 App 有问题**。按提示放行即可（各品牌的具体开关位置见第三节）。
-3. 装完打开「奶蛙图标」。
+1. 在手机上点开下载好的 APK
+2. 系统几乎一定会拦一下，说「未知来源」「未经安全审核」「有风险」之类 —— **这是所有非应用商店安装包都会遇到的提示，不是这个 App 有问题**，按提示放行即可（各品牌的具体开关位置见[各品牌手机怎么用](#各品牌手机怎么用)）
+3. 装完打开「奶蛙图标」
 
 **装不上时先看这三条：**
 
@@ -38,11 +74,9 @@
 - **找不到「安装未知应用」开关**：直接在设置的搜索框里搜「未知」两个字。
 - **在微信 / QQ 里点下载链接常常拿不到完整的包**：点右上角「⋯」→「在浏览器中打开」，再用浏览器下载。
 
----
+## 怎么用（两种方式）
 
-## 三、怎么用：两种方式
-
-装好后打开 App，它有两种用法，**在同一个 App 里，随时可以换着用**。
+打开 App 后有两条路，**在同一个 App 里，随时可以换着用**。
 
 ### 方式 A · 钉快捷方式（推荐先试这个，任何手机都能用）
 
@@ -62,13 +96,11 @@
 需要桌面支持「第三方图标包」。**OPPO / 一加 / realme 的自带桌面直接支持**，一次换掉全部能匹配的应用、角标红点都在；其他品牌多数要装 Lawnchair 之类的第三方桌面，而小米、华为、荣耀官方禁止换默认桌面，走不通 —— 具体见下一节。
 
 1. 桌面设置里找到「图标 / 图标样式 / 图标包」，选「奶蛙图标」
-2. 全部应用一次换好；个别没换上的，用方式 A 或桌面自带的「长按图标 → 编辑 → 图标」补齐
+2. 全部应用一次换好；个别没换上的，用方式 A 或桌面自带的换图标入口补齐
 
 > **想改回原样**：图标包模式在桌面设置里把图标包切回「系统默认」即可；快捷方式模式删掉新图标、把原来的图标从应用抽屉拖回桌面即可。App 也可以直接卸载，不会影响系统。
 
----
-
-## 四、各品牌手机怎么用
+## 各品牌手机怎么用
 
 先在下表里找到你的手机，照着「推荐路径」那一列做，下面有每个品牌的详细步骤。
 
@@ -87,6 +119,9 @@
 - 用哪个 App 点开的安装包，就要给哪个 App 开权限 —— 浏览器、文件管理、微信各算各的。
 - 找不到「安装未知应用」这个开关时，直接在设置顶部的搜索框里搜「未知」。
 - 装完之后不放心，可以把纯净模式 / 自动拦截程序重新打开 —— 它们拦的不只是本 App，也拦别的来源。
+
+<details>
+<summary><b>点开看完整的分品牌步骤（小米 / OPPO 一加 / vivo / 华为 / 荣耀 / 三星 / 原生系统）</b></summary>
 
 ### 小米 / 红米（澎湃 OS、MIUI）
 
@@ -147,6 +182,8 @@
 - **在 Lawnchair 里选图标包**：启动器设置 → 通用 → 图标样式 → 图标包 → 选「奶蛙图标」，一次换掉所有能匹配的应用；只想换某一个就长按应用 → 自定义 → 图标。
 - **坑点**：原生系统里没有「创建桌面快捷方式」权限开关，点完之后系统弹的「是否添加」确认框别顺手点掉；第三方桌面偶尔会在系统更新后掉默认身份，图标变回去就重设一次。
 
+</details>
+
 ### 全都试过还是不行
 
 - **包不完整**：浏览器下载的 APK 偶尔是半截文件，重新下一次。
@@ -157,19 +194,15 @@
 - **新图标没有角标红点**：这是快捷方式模式自带的限制，不是坏了。
 - **只想换几个常用 App**：用快捷方式模式，所有品牌都能用。
 
----
-
-## 五、已收录哪些应用
+## 已收录哪些应用
 
 **共 67 个**，覆盖微信、支付宝、淘宝、京东、美团、抖音、快手、小红书、微博、知乎、B站、优酷、爱奇艺、网易云音乐、QQ、TIM、企业微信、飞书、Telegram、Discord、Signal、DeepSeek、ChatGPT、豆包、高德/百度地图、滴滴、12306、携程、百度网盘、阿里云盘、WPS、剪映、Keep、Chrome、Play 商店、相机、相册、日历、时钟、计算器、天气、文件、备忘录、邮件、录音机、指南针、设置、GitHub、百词斩、作业帮、学习通、明日方舟、终末地、王者荣耀、懂车帝、抖音商城、软件商店等。
 
 完整清单（含每个图标的资源名与对应包名）见 **[ICONS.md](ICONS.md)**。
 
-> 想要的应用没在里面？在 App 的「图标检查」页点「导出应用清单」，把它发到 [Issues](https://github.com/chromoany/naiwa-icons-app/issues) —— 下一版加上。
+> 想要的应用没在里面？在 App 的「图标检查」页点「导出应用清单」，然后[提一个图标申请](https://github.com/chromoany/naiwa-icons-app/issues/new?template=icon-request.yml) —— 下一版加上。
 
----
-
-## 六、常见问题
+## 常见问题
 
 **Q：会不会收集我的数据？**
 不会。这个 App 不申请联网权限，全部逻辑在本地，代码里没有任何上报。
@@ -186,44 +219,87 @@
 **Q：能换微信/支付宝的图标吗？**
 能，图标本身都能换。但注意微信、支付宝这类应用自己也可能改图标（比如节日活动），那是应用内部行为，图标包管不了。
 
----
+**Q：以后会加更多图标吗？**
+会，按申请量排。已经画好的 1024×1024 原图都在[素材仓库](https://github.com/chromoany/naiwa-icons)里，可以先去那里看风格。
 
-## 七、给开发者
+## 给开发者
 
 <details>
-<summary>技术细节、素材与贡献方式（点开）</summary>
+<summary>技术细节、素材与构建（点开）</summary>
 
 **这是什么**：一个标准的安卓图标包（ADW / Nova 图标包规范），加上一个用来「钉快捷方式」的辅助界面，两者在同一个 APK 里。
 
-- 包名 / applicationId：`com.chromoany.iconpack`（已定稿）
-- 图标本体：`res/drawable-nodpi/` 下的 PNG，**192×192**（必须是 nodpi，否则在 xxhdpi 手机上行会被放大发虚）
-- 映射表：`res/xml/appfilter.xml`（`ComponentInfo{包名/启动Activity}` → drawable 名），当前 107 条
-- 图标清单：`res/xml/drawable.xml`（供桌面的图标选择器读取）
-- 声明方式：manifest 里 `org.adw.ActivityStarter.THEMES` + `com.novalauncher.THEME` intent-filter
-- 构建：`aapt2 + javac + d8 + zipalign + apksigner`，零 Gradle 依赖，`python build_apk.py --release`
-- minSdk 26 / targetSdk 35
+| 项目 | 值 |
+|---|---|
+| 包名 / applicationId | `com.chromoany.iconpack`（已定稿，发布后不再改） |
+| minSdk / targetSdk | 26（Android 8.0）/ 35 |
+| 图标本体 | `res/drawable-nodpi/` 下的 PNG，**192×192**（必须是 nodpi，否则在 xxhdpi 手机上会被按密度放大、发虚） |
+| 映射表 | `res/xml/appfilter.xml`（`ComponentInfo{包名/启动Activity}` → drawable 名），当前 107 条 |
+| 图标清单 | `res/xml/drawable.xml`（供桌面的图标选择器读取） |
+| 声明方式 | manifest 里 `org.adw.ActivityStarter.THEMES` + `com.novalauncher.THEME` intent-filter |
+| 自适应图标 | `mipmap-anydpi-v26/ic_launcher.xml` + 5 档前景层 + 纯色背景 |
+| 构建 | `aapt2 + javac + d8 + zipalign + apksigner`，零 Gradle 依赖 |
+| 签名 | 固定的专属密钥（RSA 4096），所以升级能直接覆盖 |
 
-**图标素材与设计规范**：[chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons) —— 1024×1024 成品 PNG、形象硬约束（四肢配色、防「googly 眼」等）、可复制的生成提示词模板、返工决策树。想贡献新图标请看那边的 `ICONS.md`。
-
-**本仓库内容**：只放发布产物与文档，不含 Android 工程源码。
+**本仓库只放发布产物与文档**，不含 Android 工程源码。
 
 ```
 README.md                  本文件
 ICONS.md                   已收录应用清单（图标名 / 应用名 / 包名）
 CHANGELOG.md               版本记录
 preview/all-icons.jpg      全部图标一览图
+preview/app-icon.png       App 启动图标
+LICENSE / LICENSE-APP      许可证
 ```
 
-**版本与签名**：APK 用固定的专属密钥签名（RSA 4096）。**升级时直接覆盖安装即可，不需要卸载**；但如果之前装过任何自行编译的 debug 版本，需要先卸载再装正式版。
+**图标素材与设计规范**：[chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons) —— 1024×1024 成品 PNG、形象硬约束（四肢配色、防「googly 眼」等）、可复制的生成提示词模板、返工决策树。想贡献新图标请看那边的 `ICONS.md`。
 
 </details>
 
----
+## 关于签名（可选核对）
+
+<details>
+<summary>点开看文件大小、哈希与签名指纹</summary>
+
+装不上、或者想确认下载的是不是原版，可以核对这几项：
+
+| 项目 | 值 |
+|---|---|
+| 文件名 | `naiwa-icons-v1.0.1.apk`（当前最新） |
+| 大小 | 3,202,286 字节（约 3.1 MB） |
+| APK SHA-256 | `81bf99486ea080e493b6b5e9c84c338cea0e33ff536a6779b042a90097e76048` |
+| 签名证书 SHA-256 | `AC:B9:A3:A6:2A:36:A7:3D:D8:F5:18:FE:B9:E4:5A:73:AC:D0:6C:06:4F:90:09:7D:C7:F5:B5:82:CB:62:EA:36` |
+
+- 每个 Release 页面都附带 `.sha256` 校验文件（内容是两个空格分隔的 `哈希 文件名`）
+- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.1.apk`，指纹对得上就说明是原版
+- **所有版本都用同一个密钥签名**，所以可以直接覆盖升级；只有从别处装的 debug 测试包才需要先卸载
+
+</details>
+
+## 反馈与贡献
+
+| 你想做的事 | 去哪 |
+|---|---|
+| 申请新增图标 | [提图标申请](https://github.com/chromoany/naiwa-icons-app/issues/new?template=icon-request.yml)（带上包名最好） |
+| 报告问题（没换上 / 装不上 / 显示不对） | [反馈问题](https://github.com/chromoany/naiwa-icons-app/issues/new?template=bug-report.yml) |
+| 想自己画图标 | 去[素材仓库](https://github.com/chromoany/naiwa-icons)看设计规范 —— 奶蛙形象有硬约束，照着来才不跑偏 |
+| 改文档 / 提建议 | 直接开 Issue 或 PR 都行 |
 
 ## 版本记录
 
-见 [CHANGELOG.md](CHANGELOG.md)。当前最新：**v1.0.1**（67 枚图标）。
+见 [CHANGELOG.md](CHANGELOG.md)。
 
-## 版权
+## 许可证
 
-图标与 App 均为自制作品，版权归作者所有。个人使用、分享给朋友都没问题；**转载或二次分发请注明出处**（本仓库链接），商业用途请先联系作者。
+本项目**分两部分许可**：
+
+| 部分 | 许可证 | 你可以 |
+|---|---|---|
+| 图标美术作品、预览图、文档 | [CC BY-NC-SA 4.0](LICENSE) | 自由使用、修改、分享（**需署名、禁止商用、衍生作品需同协议**） |
+| App（APK 及其软件部分） | [MIT](LICENSE-APP) | 自由使用、修改、分发，包括商用 |
+
+简单说：**拿去自己用、改着玩、分享给朋友都没问题；想拿这些图标去做付费产品或上架商店，请先联系作者。**
+
+## 相关仓库
+
+- [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons) —— 图标素材库：1024×1024 原图、设计规范、生成提示词模板
