@@ -147,6 +147,8 @@
 | 新增图标、新增功能、新增品牌适配 | 次版本位 `v1.x.0` | v1.1.0 |
 | 不兼容的变化（换包名、换签名这类会让老用户必须卸载重装的） | 主版本位 `vx.0.0` | v2.0.0 |
 
+[v1.0.5]: https://github.com/chromoany/naiwa-icons-app/compare/v1.0.4...v1.0.5
+[v1.0.4]: https://github.com/chromoany/naiwa-icons-app/compare/v1.0.3...v1.0.4
 [v1.0.3]: https://github.com/chromoany/naiwa-icons-app/compare/v1.0.2...v1.0.3
 [v1.0.2]: https://github.com/chromoany/naiwa-icons-app/compare/v1.0.1...v1.0.2
 [v1.0.1]: https://github.com/chromoany/naiwa-icons-app/compare/v1.0.0...v1.0.1
