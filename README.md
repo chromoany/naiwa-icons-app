@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="preview/app-icon.png" width="104" alt="奶蛙图标"><br>
-  <b>一套自己画的安卓图标：67 个常用应用，每个都是「品牌色圆角底 + 一只咧嘴狂笑的 3D 黏土小奶蛙抱着这个 App 的核心元素」</b>
+  <b>一套自己设计的安卓图标：67 个常用应用，每个都是「品牌色圆角底 + 一只咧嘴狂笑的 3D 黏土小奶蛙抱着这个 App 的核心元素」</b>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 > **只想快点用上？** 下载上面那个 APK → 手机提示「禁止安装未知应用」时选「允许」→ 装好后打开 App，在网格里挑图标钉到桌面。全程 1 分钟，不需要 root、不需要电脑。
 
-> **English** · Naiwa Icons (**奶蛙图标**) is a hand-drawn icon pack for Android: 67 app icons in a soft 3D clay style, plus a tiny app that applies them to your home screen.
+> **English** · Naiwa Icons (**奶蛙图标**) is a custom-designed icon pack for Android: 67 app icons in a soft 3D clay style, plus a tiny app that applies them to your home screen.
 > **Download** the latest `naiwa-icons-v*.apk` from [Releases](https://github.com/chromoany/naiwa-icons-app/releases/latest) — Android 8.0+, free, no ads, no network permission.
 > The 1024×1024 artwork and the design spec live in [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons).
 > This document is in Chinese because the app targets Chinese users: the per-brand instructions (Xiaomi / OPPO / vivo / Huawei / Honor / Samsung) are specific to Chinese ROMs, whose launcher restrictions differ a lot from stock Android.
@@ -56,7 +56,7 @@
 |---|---|
 | 文件 | `naiwa-icons-v*.apk`，约 3 MB |
 | 系统要求 | Android 8.0 及以上（绝大多数手机都满足） |
-| 权限 | 只要读取已安装应用列表这类基础信息，**不联网、不上报** |
+| 权限 | 只读取已安装应用列表（`QUERY_ALL_PACKAGES`），**不申请联网权限、不上报任何数据** |
 | 收费 | 免费，无广告 |
 | 升级 | 直接覆盖安装即可，不用卸载 |
 
@@ -114,11 +114,9 @@
 | 三星（One UI） | **快捷方式模式** | 先关「自动拦截程序」，否则 APK 装都装不上 |
 | 其他安卓 / 原生（Pixel、类原生） | 两种都能用，**图标包模式最省事** | 没有品牌限制，一次换掉全部图标 |
 
-**几条通用提示**（哪个品牌都适用）：
+**一条通用提示**（哪个品牌都适用）：装完之后不放心，可以把纯净模式 / 自动拦截程序重新打开 —— 它们拦的不只是本 App，也拦别的来源。
 
-- 用哪个 App 点开的安装包，就要给哪个 App 开权限 —— 浏览器、文件管理、微信各算各的。
-- 找不到「安装未知应用」这个开关时，直接在设置顶部的搜索框里搜「未知」。
-- 装完之后不放心，可以把纯净模式 / 自动拦截程序重新打开 —— 它们拦的不只是本 App，也拦别的来源。
+> 安装时的两个高频坑（**谁打开的安装包就给谁开权限**、**找不到「安装未知应用」开关就在设置里搜「未知」**）见上一节[安装](#安装)。
 
 <details>
 <summary><b>点开看完整的分品牌步骤（小米 / OPPO 一加 / vivo / 华为 / 荣耀 / 三星 / 原生系统）</b></summary>
@@ -178,7 +176,7 @@
 ### 其他安卓 / 原生系统（Pixel、类原生 ROM）
 
 - **装 APK**：一般只在点开安装包时弹一次「允许来自此来源的应用」，去设置里搜「未知」就能找到；没有纯净模式之类的额外拦截。
-- **换图标（两种都能用，图标包模式最省事）**：先装 [Lawnchair](https://lawnchair.app/downloads)（开源免费，注意它目前没有正式版 stable，用最新的 beta 即可），再把它设为默认桌面：设置 → 应用 → 默认应用 → 主屏幕应用 → Lawnchair。
+- **换图标（两种都能用，图标包模式最省事）**：先装 [Lawnchair](https://lawnchair.app/downloads)（开源免费，在下载页选最新版即可），再把它设为默认桌面：设置 → 应用 → 默认应用 → 主屏幕应用 → Lawnchair。
 - **在 Lawnchair 里选图标包**：启动器设置 → 通用 → 图标样式 → 图标包 → 选「奶蛙图标」，一次换掉所有能匹配的应用；只想换某一个就长按应用 → 自定义 → 图标。
 - **坑点**：原生系统里没有「创建桌面快捷方式」权限开关，点完之后系统弹的「是否添加」确认框别顺手点掉；第三方桌面偶尔会在系统更新后掉默认身份，图标变回去就重设一次。
 
@@ -187,16 +185,13 @@
 ### 全都试过还是不行
 
 - **包不完整**：浏览器下载的 APK 偶尔是半截文件，重新下一次。
-- **权限给错了 App**：确认你是用哪个 App 点开安装包的，就给那个 App 开权限 —— 这是最常见的失败原因。
 - **被安全检测拦下**：提示写的是本机策略（纯净模式 / 安全守护 / 自动拦截程序 / 禁止安装恶意应用）就关掉再装；如果**明确写了病毒名，别装**。
 - **点了换图标桌面没反应**：先看是不是弹了「是否添加」的确认框被忽略了；也可能桌面排满了，挪个空位再试。
 - **新图标出现但旧图标删不掉**：系统预装应用（电话、相机、设置）的图标通常不让删；第三方应用长按拖到「移除 / 卸载」即可。
-- **新图标没有角标红点**：这是快捷方式模式自带的限制，不是坏了。
-- **只想换几个常用 App**：用快捷方式模式，所有品牌都能用。
 
 ## 已收录哪些应用
 
-**共 67 个**，覆盖微信、支付宝、淘宝、京东、美团、抖音、快手、小红书、微博、知乎、B站、优酷、爱奇艺、网易云音乐、QQ、TIM、企业微信、飞书、Telegram、Discord、Signal、DeepSeek、ChatGPT、豆包、高德/百度地图、滴滴、12306、携程、百度网盘、阿里云盘、WPS、剪映、Keep、Chrome、Play 商店、相机、相册、日历、时钟、计算器、天气、文件、备忘录、邮件、录音机、指南针、设置、GitHub、百词斩、作业帮、学习通、明日方舟、终末地、王者荣耀、懂车帝、抖音商城、软件商店等。
+**共 67 个**，覆盖社交、支付、购物、视频、音乐、阅读、出行、学习、游戏、办公与系统工具等常用应用，例如微信、支付宝、淘宝、京东、美团、抖音、B站、网易云音乐、高德地图、铁路12306、WPS、相机、设置……
 
 完整清单（含每个图标的资源名与对应包名）见 **[ICONS.md](ICONS.md)**。
 
@@ -250,6 +245,7 @@ CHANGELOG.md               版本记录
 preview/all-icons.jpg      全部图标一览图
 preview/app-icon.png       App 启动图标
 LICENSE / LICENSE-APP      许可证
+.github/ISSUE_TEMPLATE/     图标申请 / 问题反馈 / 下载引导三个模板
 ```
 
 **图标素材与设计规范**：[chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons) —— 1024×1024 成品 PNG、形象硬约束（四肢配色、防「googly 眼」等）、可复制的生成提示词模板、返工决策树。想贡献新图标请看那边的 `ICONS.md`。
