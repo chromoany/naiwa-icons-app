@@ -2,12 +2,12 @@
 
 <p align="center">
   <img src="preview/app-icon.png" width="104" alt="奶蛙图标"><br>
-  <b>68 个常用应用的安卓图标：品牌色圆角底，一只奶蛙抱着对应 App 的核心元素</b>
+  <b>71 个常用应用的安卓图标：品牌色圆角底，一只奶蛙抱着对应 App 的核心元素</b>
 </p>
 
 <p align="center">
   <a href="https://github.com/chromoany/naiwa-icons-app/releases/latest"><img src="https://img.shields.io/github/v/release/chromoany/naiwa-icons-app?style=for-the-badge&label=%E6%9C%80%E6%96%B0%E7%89%88&color=2ea44f" alt="最新版"></a>
-  <img src="https://img.shields.io/badge/%E5%9B%BE%E6%A0%87-68%20%E6%9E%9A-1AA35C?style=for-the-badge" alt="68 枚图标">
+  <img src="https://img.shields.io/badge/%E5%9B%BE%E6%A0%87-71%20%E6%9E%9A-1AA35C?style=for-the-badge" alt="71 枚图标">
   <img src="https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white" alt="Android 8.0+">
   <a href="#%E8%AE%B8%E5%8F%AF%E8%AF%81"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-CC%20BY--NC--SA%204.0-lightgrey?style=for-the-badge" alt="许可证"></a>
   <a href="https://github.com/chromoany/naiwa-icons-app/releases"><img src="https://img.shields.io/github/downloads/chromoany/naiwa-icons-app/total?style=for-the-badge&label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=blue" alt="下载量"></a>
@@ -26,11 +26,11 @@
   <a href="ICONS.md">图标清单</a>
 </p>
 
-![全部 68 枚图标](preview/all-icons.jpg)
+![全部 71 枚图标](preview/all-icons.jpg)
 
 > 想省事就直接下上面那个 APK。安装时手机提示「禁止安装未知应用」就选允许，装好打开 App，在网格里挑图标钉到桌面。不用 root，也不用连电脑。
 
-> English · Naiwa Icons (奶蛙图标) is a custom-designed icon pack for Android: 68 app icons in a soft clay style, plus a tiny app that applies them to your home screen.
+> English · Naiwa Icons (奶蛙图标) is a custom-designed icon pack for Android: 71 app icons in a soft clay style, plus a tiny app that applies them to your home screen.
 > Download the latest `naiwa-icons-v*.apk` from [Releases](https://github.com/chromoany/naiwa-icons-app/releases/latest), Android 8.0+, free, no ads, no tracking. The app goes online for one thing only: checking whether new icons have been released.
 > The 1024×1024 artwork and the design spec live in [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons).
 > This document is in Chinese because the app targets Chinese users: the per-brand instructions (Xiaomi / OPPO / vivo / Huawei / Honor / Samsung) are specific to Chinese ROMs, whose launcher restrictions differ a lot from stock Android.
@@ -41,7 +41,7 @@
 
 > 装之前先确认两件事：系统是 Android 8.0 及以上；不是 HarmonyOS 5 / NEXT（纯血鸿蒙），那种系统装不了安卓应用，本 App 也用不了。
 
-68 枚图标都是同一只奶蛙，摆在桌面上是一整套。换图标有两种方式：一个个换，什么手机都能用；桌面支持图标包时，一次全换。
+71 枚图标都是同一只奶蛙，摆在桌面上是一整套。换图标有两种方式：一个个换，什么手机都能用；桌面支持图标包时，一次全换。
 
 App 只为一件事联网：打开时查一下有没有新图标，读的是本项目的公开版本信息，查不到就安静跳过，没有任何上报。图标做了自适应，各种桌面遮罩下都正常。
 
@@ -232,7 +232,7 @@ App 只为一件事联网：打开时查一下有没有新图标，读的是本�
 
 ## 已收录哪些应用
 
-一共 68 个，覆盖社交、支付、购物、视频、音乐、阅读、出行、学习、游戏、办公与系统工具等常用应用，例如微信、支付宝、淘宝、京东、美团、抖音、B站、网易云音乐、高德地图、铁路12306、WPS、相机、设置……
+一共 71 个，覆盖社交、支付、购物、视频、音乐、阅读、出行、学习、游戏、办公与系统工具等常用应用，例如微信、支付宝、淘宝、京东、美团、抖音、B站、网易云音乐、高德地图、铁路12306、WPS、相机、设置……
 
 完整清单（含每个图标的资源名与对应包名）见 [ICONS.md](ICONS.md)。
 
@@ -310,13 +310,13 @@ LICENSE / LICENSE-APP      许可证
 
 | 项目 | 值 |
 |---|---|
-| 文件名 | `naiwa-icons-v1.0.5.apk`（当前最新） |
-| 大小 | 3,653,000 字节（约 3.5 MB） |
-| APK SHA-256 | `33471ad2c19d5aa81733a7d91981c1b65fa566cd28d86961300bc1d5f9ff3016` |
+| 文件名 | `naiwa-icons-v1.0.6.apk`（当前最新） |
+| 大小 | 3,821,844 字节（约 3.6 MB） |
+| APK SHA-256 | `3c29dd10721deed6179ef9ecbcd0ddb218c3d88f758786076e9cbc0f5deae405` |
 | 签名证书 SHA-256 | `AC:B9:A3:A6:2A:36:A7:3D:D8:F5:18:FE:B9:E4:5A:73:AC:D0:6C:06:4F:90:09:7D:C7:F5:B5:82:CB:62:EA:36` |
 
 - 每个 Release 页面都附带 `.sha256` 校验文件（内容是两个空格分隔的 `哈希 文件名`）
-- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.5.apk`，指纹对得上就说明是原版
+- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.6.apk`，指纹对得上就说明是原版
 - 所有版本都用同一个密钥签名，所以可以直接覆盖升级；只有从别处装的 debug 测试包才需要先卸载
 
 </details>
