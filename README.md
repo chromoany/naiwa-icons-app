@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="preview/app-icon.png" width="104" alt="奶蛙图标"><br>
-  <b>67 个常用应用的安卓图标：统一的品牌色圆角底，同一只咧嘴狂笑的 3D 黏土奶蛙，抱着每个 App 的核心元素</b>
+  <b>67 个常用应用的安卓图标：品牌色圆角底，一只奶蛙抱着对应 App 的核心元素</b>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 > 想省事就直接下上面那个 APK。安装时手机提示「禁止安装未知应用」就选允许，装好打开 App，在网格里挑图标钉到桌面。不用 root，也不用连电脑。
 
-> English · Naiwa Icons (奶蛙图标) is a custom-designed icon pack for Android: 67 app icons in a soft 3D clay style, plus a tiny app that applies them to your home screen.
+> English · Naiwa Icons (奶蛙图标) is a custom-designed icon pack for Android: 67 app icons in a soft clay style, plus a tiny app that applies them to your home screen.
 > Download the latest `naiwa-icons-v*.apk` from [Releases](https://github.com/chromoany/naiwa-icons-app/releases/latest), Android 8.0+, free, no ads, no network permission.
 > The 1024×1024 artwork and the design spec live in [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons).
 > This document is in Chinese because the app targets Chinese users: the per-brand instructions (Xiaomi / OPPO / vivo / Huawei / Honor / Samsung) are specific to Chinese ROMs, whose launcher restrictions differ a lot from stock Android.
@@ -41,11 +41,11 @@
 
 > 装之前先确认两件事：系统是 Android 8.0 及以上；不是 HarmonyOS 5 / NEXT（纯血鸿蒙），那种系统装不了安卓应用，本 App 也用不了。
 
-67 枚图标用的是同一只奶蛙、同一套黏土渲染，摆在桌面上是一整套，不是东拼西凑来的。换图标有两种方式：一个个换，什么手机都能用；桌面支持图标包时，一次全换。
+67 枚图标都是同一只奶蛙，摆在桌面上是一整套。换图标有两种方式：一个个换，什么手机都能用；桌面支持图标包时，一次全换。
 
-App 没申请联网权限，也就谈不上收集数据。图标做了自适应，圆形、方圆形、圆角方形这三种桌面遮罩下都显示正常。
+App 没申请联网权限，也就谈不上收集数据。图标做了自适应，各种桌面遮罩下都正常。
 
-每枚图标是完整的一大张图，不是透明前景加系统背板，所以品牌色和构图都能自己控制。
+每枚图标是一整张图，不是透明前景加系统背板，所以品牌色和构图都能自己控制。
 
 ## 下载
 
@@ -287,7 +287,7 @@ LICENSE / LICENSE-APP      许可证
 .github/ISSUE_TEMPLATE/     图标申请 / 问题反馈 / 下载引导三个模板
 ```
 
-图标素材与设计规范在 [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons)：1024×1024 成品 PNG、形象硬约束（四肢配色、防「googly 眼」等）、可复制的生成提示词模板、返工决策树。想贡献新图标请看那边的 `ICONS.md`。
+图标素材与设计规范在 [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons)，想贡献新图标请看那边的 `ICONS.md`。
 
 </details>
 
@@ -337,4 +337,4 @@ LICENSE / LICENSE-APP      许可证
 
 ## 相关仓库
 
-- [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons)：图标素材库，1024×1024 原图、设计规范、生成提示词模板
+- [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons)：图标素材库
