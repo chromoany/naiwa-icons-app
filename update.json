@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "versionCode": 5,
-  "versionName": "1.0.4",
+  "versionCode": 6,
+  "versionName": "1.0.5",
   "iconCount": 68,
   "added": [],
   "icons": [
@@ -74,8 +74,8 @@
     "zhihu",
     "zuoyebang"
   ],
-  "apkUrl": "https://github.com/chromoany/naiwa-icons-app/releases/download/v1.0.4/naiwa-icons-v1.0.4.apk",
-  "releaseUrl": "https://github.com/chromoany/naiwa-icons-app/releases/tag/v1.0.4",
+  "apkUrl": "https://github.com/chromoany/naiwa-icons-app/releases/download/v1.0.5/naiwa-icons-v1.0.5.apk",
+  "releaseUrl": "https://github.com/chromoany/naiwa-icons-app/releases/tag/v1.0.5",
   "notes": "",
   "updatedAt": "2026-09-24"
 }
