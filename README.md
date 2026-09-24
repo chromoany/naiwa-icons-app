@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="preview/app-icon.png" width="104" alt="奶蛙图标"><br>
-  <b>67 个常用应用的安卓图标，每个都是品牌色圆角底，加一只咧嘴狂笑的 3D 黏土奶蛙，抱着这个 App 的核心元素</b>
+  <b>67 个常用应用的安卓图标：统一的品牌色圆角底，同一只咧嘴狂笑的 3D 黏土奶蛙，抱着每个 App 的核心元素</b>
 </p>
 
 <p align="center">
