@@ -31,7 +31,7 @@
 > 想省事就直接下上面那个 APK。安装时手机提示「禁止安装未知应用」就选允许，装好打开 App，在网格里挑图标钉到桌面。不用 root，也不用连电脑。
 
 > English · Naiwa Icons (奶蛙图标) is a custom-designed icon pack for Android: 68 app icons in a soft clay style, plus a tiny app that applies them to your home screen.
-> Download the latest `naiwa-icons-v*.apk` from [Releases](https://github.com/chromoany/naiwa-icons-app/releases/latest), Android 8.0+, free, no ads, no network permission.
+> Download the latest `naiwa-icons-v*.apk` from [Releases](https://github.com/chromoany/naiwa-icons-app/releases/latest), Android 8.0+, free, no ads, no tracking. The app goes online for one thing only: checking whether new icons have been released.
 > The 1024×1024 artwork and the design spec live in [chromoany/naiwa-icons](https://github.com/chromoany/naiwa-icons).
 > This document is in Chinese because the app targets Chinese users: the per-brand instructions (Xiaomi / OPPO / vivo / Huawei / Honor / Samsung) are specific to Chinese ROMs, whose launcher restrictions differ a lot from stock Android.
 
@@ -43,7 +43,7 @@
 
 68 枚图标都是同一只奶蛙，摆在桌面上是一整套。换图标有两种方式：一个个换，什么手机都能用；桌面支持图标包时，一次全换。
 
-App 没申请联网权限，也就谈不上收集数据。图标做了自适应，各种桌面遮罩下都正常。
+App 只为一件事联网：打开时查一下有没有新图标，读的是本项目的公开版本信息，查不到就安静跳过，没有任何上报。图标做了自适应，各种桌面遮罩下都正常。
 
 每枚图标是一整张图，不是透明前景加系统背板，所以品牌色和构图都能自己控制。
 
@@ -55,11 +55,19 @@ App 没申请联网权限，也就谈不上收集数据。图标做了自适应�
 |---|---|
 | 文件 | `naiwa-icons-v*.apk`，约 3.5 MB |
 | 系统要求 | Android 8.0 及以上（绝大多数手机都满足） |
-| 权限 | 只读取已安装应用列表（`QUERY_ALL_PACKAGES`），不申请联网权限，也不上报任何数据 |
+| 权限 | 读取已安装应用列表（`QUERY_ALL_PACKAGES`）用于匹配图标；联网权限只用来查有没有新版本，不采集也不上报任何数据 |
 | 收费 | 免费，无广告 |
 | 升级 | 直接覆盖安装即可，不用卸载 |
 
 > 手机上下载不方便的话，就在电脑上点上面的链接，把 APK 传到手机（微信、QQ 传文件，或者数据线都行），再在手机上点开安装。
+
+## 新图标怎么知道
+
+不用自己盯着仓库。打开 App 的时候它会顺手查一下有没有新图标，有的话首页顶部出现一条提醒，点开能看到这一版新增了哪些应用，以及直接下载新版 APK 的按钮。
+
+想马上确认，展开首页的「更多」，点「检查有没有新图标」。
+
+查更新只在这两种时机发生：打开 App，或者你自己点检查。查到的结果半小时内不重复请求，手机上不会有后台常驻进程，也不弹通知；连不上网络时安静跳过，换图标的功能照用。
 
 ## 安装
 
@@ -234,7 +242,7 @@ App 没申请联网权限，也就谈不上收集数据。图标做了自适应�
 
 ### 会不会收集我的数据？
 
-不会。这个 App 不申请联网权限，全部逻辑在本地，代码里没有任何上报。
+不会。联网只用在查新图标这一件事上：向本项目的公开仓库读一个版本信息文件，没有账号、没有统计、没有广告 SDK，其余逻辑全在本地。
 
 ### 为什么不能直接替换图标，非要先加一个再删一个？
 
@@ -302,13 +310,13 @@ LICENSE / LICENSE-APP      许可证
 
 | 项目 | 值 |
 |---|---|
-| 文件名 | `naiwa-icons-v1.0.4.apk`（当前最新） |
-| 大小 | 3,591,406 字节（约 3.4 MB） |
-| APK SHA-256 | `6d88f0368c35038320676585ff9f5d58eb7f6d889c1bab3309390713f8f5acc9` |
+| 文件名 | `naiwa-icons-v1.0.5.apk`（当前最新） |
+| 大小 | 3,653,000 字节（约 3.5 MB） |
+| APK SHA-256 | `33471ad2c19d5aa81733a7d91981c1b65fa566cd28d86961300bc1d5f9ff3016` |
 | 签名证书 SHA-256 | `AC:B9:A3:A6:2A:36:A7:3D:D8:F5:18:FE:B9:E4:5A:73:AC:D0:6C:06:4F:90:09:7D:C7:F5:B5:82:CB:62:EA:36` |
 
 - 每个 Release 页面都附带 `.sha256` 校验文件（内容是两个空格分隔的 `哈希 文件名`）
-- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.4.apk`，指纹对得上就说明是原版
+- 想自己验签名：`apksigner verify --print-certs naiwa-icons-v1.0.5.apk`，指纹对得上就说明是原版
 - 所有版本都用同一个密钥签名，所以可以直接覆盖升级；只有从别处装的 debug 测试包才需要先卸载
 
 </details>
