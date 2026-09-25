@@ -1,25 +1,9 @@
 {
   "schema": 1,
-  "versionCode": 7,
-  "versionName": "1.0.6",
+  "versionCode": 8,
+  "versionName": "1.0.7",
   "iconCount": 71,
-  "added": [
-    {
-      "file": "clashofclans",
-      "label": "部落冲突",
-      "pkg": "com.supercell.clashofclans"
-    },
-    {
-      "file": "clashroyale",
-      "label": "皇室战争",
-      "pkg": "com.supercell.clashroyale"
-    },
-    {
-      "file": "whatsapp",
-      "label": "WhatsApp",
-      "pkg": "com.whatsapp"
-    }
-  ],
+  "added": [],
   "icons": [
     "alipay",
     "aliyundrive",
@@ -93,8 +77,8 @@
     "zhihu",
     "zuoyebang"
   ],
-  "apkUrl": "https://github.com/chromoany/naiwa-icons-app/releases/download/v1.0.6/naiwa-icons-v1.0.6.apk",
-  "releaseUrl": "https://github.com/chromoany/naiwa-icons-app/releases/tag/v1.0.6",
+  "apkUrl": "https://github.com/chromoany/naiwa-icons-app/releases/download/v1.0.7/naiwa-icons-v1.0.7.apk",
+  "releaseUrl": "https://github.com/chromoany/naiwa-icons-app/releases/tag/v1.0.7",
   "notes": "",
-  "updatedAt": "2026-09-24"
+  "updatedAt": "2026-09-25"
 }
